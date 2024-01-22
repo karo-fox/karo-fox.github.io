@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy coding"
+# title: "Happy coding"
 ---
 
 <div class="py-24 max-w-xl mx-auto text-center">

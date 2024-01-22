@@ -1,6 +1,6 @@
-url: ''
+url: 'karo-fox.github.io'
 baseurl: ''
-title: 'Jekyllwind'
+title: 'karo-fox blog'
 
 plugins:
   - jekyll-postcss
