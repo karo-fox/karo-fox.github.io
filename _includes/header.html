@@ -1,8 +1,11 @@
 <header>
-  <nav>
-    <a href="/">
-      {% include logo.html %}
+  <nav class="h-20 flex justify-around items-center">
+    <a href="/about" class="h-full bg-black">
+      {% include logo.svg %}
     </a>
-    {% include nav_items.html %}
+    <i class="fa-solid fa-bars sm:hidden"></i>
+    <div class="">
+      {% include nav_items.html %}
+    </div>
   </nav>
 </header>

@@ -3,8 +3,6 @@ layout: post
 title: Null None Nothing
 description: Opisuję, w jaki sposób różne języki programowania radzą sobie z wyrażaniem braku wartości
 date: 2023-02-04 15:16:18 +0100
-category: języki programowania
-tags: programowanie
 ---
 
 Ostatnio brałam udział w dyskusji dotyczącej wyrażania braku wartości w kodzie. Rozmowa dość szybko wygasła, skłoniła mnie jednak do pochylenia się nad tematem.

@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://kit.fontawesome.com/d3f35edffa.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="text-cyan-50 bg-cyan-950">
     {% include header.html %}
     <main>
-      {{ content }}
+      <section>{{ content }}</section>
     </main>
     {% include footer.html %}
   </body>

@@ -3,8 +3,6 @@ layout: post
 title: Niestandardowy input w Vue okiem początkującego
 description: Opisuję przygotowany przeze mnie komponent do obsługi niestandardowych pól input w aplikacji Encryptor, nad którą pracuję
 date: 2023-02-04 15:16:18 +0100
-category: tutorial
-tags: vue
 ---
 
 Jestem początkującą programistką, interesuję się głównie backendem. Mówi się, że najlepszym sposobem nauki jest wykonanie projektu. Tak więc od miesiąca w wolnym czasie rozwijam aplikację webową, prosty szyfrator. Jego zadaniem jest przetworzenie przekazanego mu tekstu i zwrócenie zaszyfrowanej wiadomości. Używa prostych szyfrów: Cezara, zamiany... Mam w planach dodać jeszcze kilka. Jednak w międzyczasie naszła mnie ochota na wykonanie frontu do tego projektu. Wybrałam Vue, przeszłam kilka poradników, i strona startowa zaczęła wyglądać całkiem znośnie:
