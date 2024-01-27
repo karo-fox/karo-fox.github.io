@@ -1,11 +1,30 @@
-<header>
-  <nav class="h-20 flex justify-around items-center">
-    <a href="/about" class="h-full bg-black">
-      {% include logo.svg %}
-    </a>
-    <i class="fa-solid fa-bars sm:hidden"></i>
-    <div class="">
-      {% include nav_items.html %}
+<header class="container sticky top-0 z-20 bg-cyan-950">
+  <nav class="">
+    <div class="h-20 flex justify-between md:justify-around items-center">
+      <a href="/about" class="h-full">
+        {% include logo.svg %}
+        <span class="ml-4 text-xl font-medium inline">Karolina Kozubik</span>
+      </a>
+      <button class="md:hidden" onclick="openMobileNav()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          class="w-6 h-6 fill-current"
+        >
+          <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </button>
+
+      <!-- Desktop menu -->
+      <div class="hidden text-cyan-500 md:block" style="word-spacing: 1rem;">
+        {% include nav_items.html %}
+      </div>
     </div>
+
+    <!-- Mobile menu -->
+    <div class="hidden flex flex-col items-end my-4 text-cyan-500" id="menu">{% include nav_items.html %}</div>
   </nav>
 </header>
