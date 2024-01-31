@@ -2,4 +2,5 @@
 layout: default
 permalink: /projects/
 ---
-Hi
+
+work in progress

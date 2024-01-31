@@ -3,4 +3,4 @@ layout: default
 permalink: /about/
 ---
 
-Abou tme
+work in progress
