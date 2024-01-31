@@ -1,5 +1,5 @@
-url: 'karo-fox.github.io'
-baseurl: ''
+url: 'https://karo-fox.github.io'
+baseurl: 'karo-fox.github.io'
 title: 'karo-fox blog'
 
 date_locale: pl
