@@ -29,6 +29,10 @@ body {
   @apply bg-slate-800 text-slate-50 font-sans text-lg;
 }
 
+a {
+  @apply text-slate-300 hover:underline;
+}
+
 img {
   @apply bg-white;
 }
@@ -136,7 +140,7 @@ ol:first-child,
 }
 
 hr {
-  @apply bg-slate-400 border-none h-px my-4 mx-auto max-w-md my-8;
+  @apply bg-slate-400 border-none h-px my-4 mx-auto my-8;
 }
 
 mark {
@@ -166,6 +170,10 @@ td ~ td {
 
 td {
   @apply pl-2;
+}
+
+blockquote {
+  @apply bg-slate-900 border-slate-950;
 }
 
 #markdown-toc {
