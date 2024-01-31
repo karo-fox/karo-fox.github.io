@@ -1,8 +1,12 @@
 url: 'https://karo-fox.github.io'
-baseurl: 'karo-fox.github.io'
+baseurl: ''
 title: 'karo-fox blog'
 
 date_locale: pl
+
+collections:
+  posts:
+    permalink: /posts/:title
 
 plugins:
   - jekyll-postcss
