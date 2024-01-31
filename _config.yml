@@ -6,7 +6,7 @@ date_locale: pl
 
 collections:
   posts:
-    permalink: /posts/:title
+    permalink: /posts/:title/
 
 plugins:
   - jekyll-postcss
