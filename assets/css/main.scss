@@ -26,7 +26,7 @@
 }
 
 body {
-  @apply bg-cyan-950 text-cyan-50 font-sans text-lg;
+  @apply bg-slate-800 text-slate-50 font-sans text-lg;
 }
 
 img {
@@ -39,32 +39,22 @@ button {
 
 
 h1 {
-  @apply font-semibold;
-
   font-size: 2rem;
 }
 
 h2 {
-  @apply font-semibold;
-
   font-size: 1.7rem;
 }
 
 h3 {
-  @apply font-semibold;
-
   font-size: 1.5rem;
 }
 
 h4 {
-  @apply font-semibold;
-
   font-size: 1.3rem;
 }
 
 h5 {
-  @apply font-semibold;
-
   font-size: 1.1rem;
 }
 
@@ -83,7 +73,7 @@ ol {
 }
 
 blockquote {
-  @apply bg-cyan-700 rounded p-4 text-sm mt-4 border-l-4 border-yellow-500
+  @apply bg-slate-700 rounded p-4 text-sm mt-4 border-l-4 border-yellow-500
 }
 
 p,
@@ -107,7 +97,7 @@ h2,
 h3,
 h4,
 h5 {
-  @apply mt-10;
+  @apply mt-10 font-semibold text-slate-300;
 }
 
 p,
@@ -146,11 +136,11 @@ ol:first-child,
 }
 
 hr {
-  @apply bg-cyan-400 border-none h-px my-4 mx-auto max-w-md my-8;
+  @apply bg-slate-400 border-none h-px my-4 mx-auto max-w-md my-8;
 }
 
 mark {
-  @apply bg-cyan-400 text-cyan-900 font-semibold px-1 rounded shadow-xl;
+  @apply bg-slate-400 text-slate-900 font-semibold px-1 rounded shadow-xl;
 }
 
 .table-wrapper {
@@ -158,7 +148,7 @@ mark {
 }
 
 table {
-  @apply p-2 w-full bg-cyan-800;
+  @apply p-2 w-full bg-slate-800;
 }
 
 thead {
@@ -179,11 +169,11 @@ td {
 }
 
 #markdown-toc {
-  @apply bg-cyan-800 p-2 rounded list-none;
+  @apply bg-slate-800 p-2 rounded list-none;
 }
 
 #markdown-toc a {
-  @apply text-cyan-400;
+  @apply text-slate-400;
 }
 
 #markdown-toc ul {
@@ -197,11 +187,11 @@ td {
 /* CODE HIGHLIGHTING */
 
 .highlight > pre {
-  @apply p-4 bg-cyan-900 rounded text-sm overflow-auto;
+  @apply p-4 bg-slate-900 rounded text-sm overflow-auto;
 }
 
 div.highlight > pre {
-  @apply p-2 bg-cyan-900 rounded text-sm overflow-auto;
+  @apply p-2 bg-slate-900 rounded text-sm overflow-auto;
 }
 
 pre.lineno {
@@ -209,11 +199,11 @@ pre.lineno {
 }
 
 code.highlighter-rouge {
-  @apply p-1 bg-cyan-900 text-cyan-200 rounded text-sm;
+  @apply p-1 bg-slate-900 text-slate-200 rounded text-sm;
 }
 
 .hll {
-  @apply bg-cyan-700 block px-2 border-l-4 border-white;
+  @apply bg-slate-700 block px-2 border-l-4 border-white;
 }
 
 .highlight .hll {
