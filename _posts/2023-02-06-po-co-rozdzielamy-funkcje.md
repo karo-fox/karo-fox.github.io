@@ -3,6 +3,7 @@ layout: post
 title: Po co rozdzielamy funkcje?
 description: Trochę rozważań o tym, dlaczego właściwie funkcje należy rozdzielać na mniejsze
 date: 2023-02-06 13:00:00 +0100
+author: Karolina Kozubik
 ---
 
 Ostatnio obejrzałam na youtubie film [Object-Oriented Programming is Bad](https://www.youtube.com/watch?v=QM1iUe6IofM). Jedną z porad, których udziela Brian Will, jest: _Don't be afraid of long functions_. A ja wszędzie w trakcie mojej nauki programowania słyszę, że rozdzielanie funkcji jest dobre i absolutnie trzeba to robić. Jasne, sam film w tytule zakłada krytykę niektórych zasad OOP, ale rozdzielanie funkcji nie dotyczy jedynie OOP. Dlatego zdecydowałam się pochylić nad tematem, trochę się pozastanawiać i coś z tego kontrastu opinii wyciągnąć. Czego rezultat tutaj prezentuję.
