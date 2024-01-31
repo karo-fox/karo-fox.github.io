@@ -1,11 +1,14 @@
-# .github/workflows/github-pages.yml
-
 name: Build and deploy this site to GitHub Pages
 
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
