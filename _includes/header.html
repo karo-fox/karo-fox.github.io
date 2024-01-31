@@ -1,9 +1,11 @@
 <header class="container sticky top-0 z-20 bg-slate-800">
   <nav class="">
     <div class="h-20 flex justify-between md:justify-around items-center">
-      <a href="/about" class="h-full hover:no-underline">
+      <a href="/about" class="h-full hover:no-underline flex items-center">
         {% include svg/logo.svg %}
-        <span class="ml-4 text-xl font-medium inline text-slate-50">Karolina Kozubik</span>
+        <span class="ml-4 text-xl font-medium inline text-slate-50"
+          >Karolina Kozubik</span
+        >
       </a>
       <button class="md:hidden" onclick="openMobileNav()">
         <svg
@@ -19,12 +21,15 @@
       </button>
 
       <!-- Desktop menu -->
-      <div class="hidden text-slate-400 md:block" style="word-spacing: 1rem;">
-        {% include nav_items.html %}
+      <div class="hidden text-slate-400 md:flex items-stretch justify-around">
+        {% include nav_items.html %} {% include socials.html %}
       </div>
     </div>
 
     <!-- Mobile menu -->
-    <div class="hidden flex flex-col items-end my-4 text-slate-400" id="menu">{% include nav_items.html %}</div>
+    <div class="hidden grid gap-4 grid-cols-1 gap-y-2 justify-items-end my-4 text-slate-400" id="menu">
+      {% include nav_items.html %}
+      <div>{% include socials.html %}</div>
+    </div>
   </nav>
 </header>
