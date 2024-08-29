@@ -4,7 +4,6 @@ title: Minimalny starter do ROS 2
 description: Minimalny starter do rozwoju projektów opartych o ROS 2 w skonteneryzowanym środowisku.
 date: 2024-08-29 11:19:29 +00:00
 author: Karolina Kozubik
-lang: pl
 ---
 
 Oto minimalny starter do rozwijania projektów opartych o ROS 2 za pomocą Dockera. Kod można znaleźć [na moim GitHubie](https://github.com/karo-fox/minimal-ros2-starter).

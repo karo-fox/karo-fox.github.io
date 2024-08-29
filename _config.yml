@@ -6,11 +6,12 @@ date_locale: pl
 
 collections:
   posts:
+    output: true
     permalink: /posts/:title/
 
 plugins:
   - jekyll-postcss
-  - jekyll-pliglot
+  - jekyll-polyglot
 
 postcss:
   cache: false
@@ -23,13 +24,12 @@ exclude:
 
 include:
  - _pages
- - _sass
 
 # Polyglot settings
 languages: ["pl", "en"]
 default_lang: "pl"
-# exclude_from_localization: ["javascript", "images", "css", "public"] 
-parallel_localization: true
+exclude_from_localization: ["javascript", "images", "css", "public"] 
+parallel_localization: false
 lang_from_path: true
 
 langsep: "•"
