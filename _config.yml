@@ -23,3 +23,11 @@ exclude:
 include:
  - _pages
  - _sass
+
+# Polyglot settings
+languages: ["pl", "en"]
+default_lang: "pl"
+# exclude_from_localization: ["javascript", "images", "css", "public"] 
+parallel_localization: true
+
+langsep: "•"

@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /about/
+lang: pl
+page_id: about
 ---
 
-work in progress
+praca trwa
