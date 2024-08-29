@@ -29,7 +29,6 @@ include:
 languages: ["pl", "en"]
 default_lang: "pl"
 exclude_from_localization: ["javascript", "images", "css", "public"] 
-parallel_localization: false
-lang_from_path: true
+parallel_localization: true
 
-langsep: "•"
+langsep: "|"

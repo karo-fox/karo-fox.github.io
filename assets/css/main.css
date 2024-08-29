@@ -1,7 +1,7 @@
 ---
 --- 
 
-@import "main";
+@import "main.scss";
 
 @tailwind base;
 @tailwind components;
