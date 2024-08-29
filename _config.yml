@@ -21,6 +21,7 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - package-lock.json
+  - vendor
 
 include:
  - _pages

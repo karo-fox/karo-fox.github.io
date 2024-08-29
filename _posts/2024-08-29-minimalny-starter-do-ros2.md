@@ -9,7 +9,7 @@ lang: pl
 
 Oto minimalny starter do rozwijania projektów opartych o ROS 2 za pomocą Dockera. Kod można znaleźć [na moim GitHubie](https://github.com/karo-fox/minimal-ros2-starter).
 
-## `Dockerfile`
+## Dockerfile
 
 ```dockerfile
 FROM ros:foxy
@@ -44,9 +44,9 @@ CMD ["/bin/bash"]
 
 Utworzony obraz będzie zawierał gotowe do działania środowisko ROS.
 
-## `scripts/setup.sh`
+## scripts/setup.sh
 
-Żeby w danym terminalu mogły działać narzędzia konsolowe ROS, potrzebne jest wykonanie pliku `/opt/ros/foxy/setup.bash`. Proces ten należy powtórzyć w każdej sesji terminala, w której chcemy korzystać z ROSa. Wygodnie jest umieścić komendę w skrypcie. Możemy tu też umieścić własne komendy konfigurujące kolejne pakiety dodawane do projektu.
+Żeby w danym terminalu mogły działać narzędzia konsolowe ROS, potrzebne jest wykonanie pliku `/opt/ros/foxy/setup.bash` w powłoce. Proces ten należy powtórzyć w każdym nowym terminalu, w którym chcemy korzystać z ROSa. Wygodnie jest zatem umieścić komendę w skrypcie. Możemy tu też umieścić własne komendy konfigurujące kolejne pakiety dodawane do projektu.
 
 ```sh
 #!/bin/bash
@@ -69,7 +69,6 @@ docker run --rm -it \
     <nazwa obrazu> /bin/bash
 ```
 
-Kilka informacji dotyczących uruchamiania kontenera:
 - `-i` uruchamia kontener w trybie interaktywnym, `-t` pozwala na korzystanie z terminala
 - `-e ROS_DOMAIN_ID=0` ustawia ID domeny ROSa
 - `-v .:<ścieżka/do/projektu>` podpina nasze lokalne pliki projektowe do kontenera
