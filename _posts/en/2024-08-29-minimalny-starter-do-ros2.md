@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Minimal ROS 2 starter
-description: Minimal starter for ROS 2 projects development in containerized environment.
+description: Minimal starter for ROS 2-based projects development in a containerised environment.
 date: 2024-08-29 11:19:29 +00:00
 author: Karolina Kozubik
 lang: en
 ---
 
-Here's a minimal started for ROS 2 projects development with Docker. The code can be found on [my GitHub](https://github.com/karo-fox/minimal-ros2-starter).
+Here's a minimal starter for ROS 2-based projects development with Docker. The code can be found on [my GitHub](https://github.com/karo-fox/minimal-ros2-starter).
 
-## `Dockerfile`
+## Dockerfile
 
 ```dockerfile
 FROM ros:foxy
@@ -44,9 +44,9 @@ CMD ["/bin/bash"]
 
 The image created will contain ready-to-go ROS environment.
 
-## `scripts/setup.sh`
+## scripts/setup.sh
 
-`/opt/ros/foxy/setup.bash` file has to be executed in the shell for ROS CLI to work. The same process has to be repeated in every terminal session we want to use ROS in. It is convenient to put the command in a script. We can also put additional commands to configure further packages in the project.
+`/opt/ros/foxy/setup.bash` file has to be executed in the shell for ROS CLI to work. The same process has to be repeated in every terminal we want to use ROS in. It is convenient to put the command in a script. We can also put there additional commands to configure further packages in the project.
 
 ```sh
 #!/bin/bash
@@ -69,7 +69,6 @@ docker run --rm -it \
     <image name> /bin/bash
 ```
 
-Some info about running the container:
 - `i-` runs the container in interactive mode, `-t` let's us use the terminal 
 - `-e ROS_DOMAIN_ID=0` sets the ROS domain ID
 - `-v .:<path/to/the/project>` mount our local project files to the container
