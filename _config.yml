@@ -32,4 +32,4 @@ default_lang: "pl"
 exclude_from_localization: ["javascript", "images", "css", "public"] 
 parallel_localization: true
 
-langsep: "|"
+sep: "|"
