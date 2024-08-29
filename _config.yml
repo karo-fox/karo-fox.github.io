@@ -10,6 +10,7 @@ collections:
 
 plugins:
   - jekyll-postcss
+  - jekyll-pliglot
 
 postcss:
   cache: false
@@ -29,5 +30,6 @@ languages: ["pl", "en"]
 default_lang: "pl"
 # exclude_from_localization: ["javascript", "images", "css", "public"] 
 parallel_localization: true
+lang_from_path: true
 
 langsep: "•"
