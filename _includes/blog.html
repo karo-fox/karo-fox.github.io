@@ -2,7 +2,7 @@
   {% for post in site.posts %}
     <a href="{{ post.url }}" class="block py-3">
       <div class="text-2xl">{{ post.title }}</div>
-      <div class="text-sm">{{ post.date | localize: '%e %B %Y' }} | {{ post.author }}</div>
+      <div class="text-sm">{% include date.html date=post.date %} {{ site.sep }} {{ post.author }}</div>
     </a>
   {% endfor %}
 </section>

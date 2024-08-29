@@ -1,0 +1,5 @@
+{% if site.active_lang == "pl" %}
+  <span>{{ include.date | localize: '%e %B %Y' }}</span>
+{% else %}
+  <span>{{ include.date | localize: '%B %e, %Y', 'en' }}</span> 
+{% endif %}

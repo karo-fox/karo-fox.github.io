@@ -1,6 +1,8 @@
 {% for lang in site.languages %}
   {% if lang == site.active_lang %}
-{{ lang }}
+<span class="contents">
+  <span class="mx-2">{{ lang }}</span>
+</span> 
   {% else %}
     {% if lang == site.default_lang %}
 <a class="contents" href=" {{ page.url }}">
@@ -12,5 +14,5 @@
 </a>
     {% endif %}
   {% endif %}
-  {%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+  {%- if forloop.last == false -%}{{ site.sep }}{%- endif -%}
 {% endfor %}
